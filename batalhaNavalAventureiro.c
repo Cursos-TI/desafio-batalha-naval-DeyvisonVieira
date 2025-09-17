@@ -40,7 +40,6 @@ static void marcaDiagSecundaria(int t[N][N], int iIni, int iFimExc, int marca) {
         t[i][(N - 1) - i] = marca;
 }
 
-/* Mantém exatamente o padrão do seu gerador */
 static void gerarTabuleiroAventureiro(int tabuleiro[N][N]) {
     zeraTabuleiro(tabuleiro);
 
