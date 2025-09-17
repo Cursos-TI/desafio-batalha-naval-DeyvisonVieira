@@ -17,7 +17,7 @@ static void posiciona_vertical(int tab[TAM][TAM], int coluna, int linha_ini, int
     }
 }
 
-/* Helpers de impressão (mantêm exatamente as mesmas mensagens) */
+/* Helpers de impressão */
 static void imprime_coords_horizontal(int linha, int col_ini, int tamanho) {
     printf("Coordenadas do navio horizontal:\n");
     for (int i = 0; i < tamanho; i++) {
@@ -51,8 +51,7 @@ int main(void) {
     const int tamanho_v       = 2;
 
     posiciona_vertical(tabuleiro, coluna_v, linha_inicio_v, tamanho_v, MARCA_V);
-
-    // Saídas exatamente como no original
+    
     imprime_coords_horizontal(linha_h, col_inicio_h, tamanho_h);
     imprime_coords_vertical(coluna_v, linha_inicio_v, tamanho_v);
 
