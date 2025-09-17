@@ -19,7 +19,7 @@ static void copiaPadrao(int destino[N][N], const int padrao[N][N]) {
             destino[i][j] = padrao[i][j];
 }
 
-/* ---------- Habilidades (mesmos padrões) ---------- */
+/* ---------- Habilidades ---------- */
 void habilidadeCone(int matriz[N][N]) {
     static const int CONE[N][N] = {
         {0,0,1,0,0},
